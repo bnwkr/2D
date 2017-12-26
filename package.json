@@ -1,0 +1,16 @@
+{
+  "name": "2d",
+  "version": "0.0.2",
+  "description": "2D is a Discord Bot for moderation, fun and vanity!",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.2.1",
+    "discord.js-commando": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BlueDeadpool",
+  "license": "ISC"
+}
