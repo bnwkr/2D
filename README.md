@@ -1,9 +1,9 @@
 # 2D
 > The Discord Bot for Millennials
 
-[![NPM Version][npm-image]][npm-url]
+<!-- [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+[![Downloads Stats][npm-downloads]][npm-url] -->
 
 2D is a discord bot by BlueDeadpool for moderation, fun and vanity!
 
