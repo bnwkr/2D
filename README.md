@@ -14,13 +14,9 @@
 ## Installation
 
 Windows:
-```MUST HAVE NODE INSTALLED```
 1. Install 2D as ZIP File then extract
 2. Change to Your Bot Token in botsettings.json
-3. Open cmd
-4. Type ```npm i -s hydrabolt/discord.js```
-5. Wait for install, then close cmd
-6. Run start.bat
+3. Run start.bat
 
 ## Commands
 
