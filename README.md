@@ -26,6 +26,9 @@ _For more information, please refer to the [Wiki][wiki]._
 
 ## Release History
 
+* 0.9.4.2
+    * FIX: Fixed ```2d.avatar```
+    * FIX: Fixed ```2d.icon```
 * 0.9.4
     * FIX: Added more required node_modules
     * FIX: Fixed ```setActivity is not a function``` 

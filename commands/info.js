@@ -14,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
     .setAuthor("2D - The Discord Bot for Millennials",)
     .setColor("#9B59B6")
     .addField(":spy: Created By", `Blue#0026`, true)
-    .addField(":robot: Version", "v0.9.4",true)
+    .addField(":robot: Version", "[v0.9.4.2](https://github.com/bluedeadpool/2D)",true)
     .addField(":books: Library", "Discord.js", true)
     .addField(":shield: Guilds", bot.guilds.size, true)
     .addField(":notebook_with_decorative_cover: Channels", bot.channels.size, true)
