@@ -1,6 +1,6 @@
 {
   "name": "2d",
-  "version": "0.0.2",
+  "version": "0.9.3",
   "description": "2D is a Discord Bot for moderation, fun and vanity!",
   "main": "bot.js",
   "dependencies": {
@@ -12,5 +12,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BlueDeadpool",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueDeadpool/2D.git"
+  },
+  "keywords": [
+    "bot",
+    "discord-bot",
+    "discord",
+    "discord",
+    "bot",
+    "discord",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/BlueDeadpool/2D/issues"
+  },
+  "homepage": "https://github.com/BlueDeadpool/2D#readme"
 }
