@@ -26,9 +26,15 @@ _For more information, please refer to the [Wiki][wiki]._
 
 ## Release History
 
+* 0.9.4
+    * FIX: Added more required node_modules
+    * FIX: Fixed ```setActivity is not a function``` 
+    * CHANGE: Updated to discord.js master branch
+    * CHANGE: Info now displays 0.9.4
 * 0.9.3
     * ADD: Added 2d.say
     * ADD: Added 2d.icon
+    * ADD: Added node_modules to Git Repo
     * ADD: Added 2d.bug - made redirect to ```Issues```
     * CHANGE: Took down 2d.avatar for maintenance
 * 0.9.2
