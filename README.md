@@ -1,13 +1,10 @@
 # 2D
 > The Discord Bot for Millennials
 
-[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg?style=flat-square)]()
+[![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
-[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)]()
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?style=flat-square)]()
-<!-- [![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url] -->
+[![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
+[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
 
 2D is a discord bot by BlueDeadpool for moderation, fun and vanity!
 
