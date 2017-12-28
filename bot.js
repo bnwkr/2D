@@ -57,10 +57,20 @@ bot.on("ready", () => {
     }).catch(err => {
         console.log(err.stack);
     });
-    function serverUpdate(){
-        bot.user.setGame(bot.guilds.size + ' Servers | ' + prefix + 'help');
-    }
-    setInterval(serverUpdate, 5000);
+    //function serverUpdate(){
+        //bot.user.setGame(bot.guilds.size + ' Servers | ' + prefix + 'help');
+    //}
+    //setInterval(serverUpdate, 5000);
+    let i = 0
+    setInterval(() => {
+        const presenceUsers = ['in ' + bot.guilds.size + ' Guilds | ' + prefix + 'help', {type: 'PLAYING'}];
+        const presenceGuilds = [bot.users.size + ' Users | ' + prefix + 'help', {type: 'WATCHING'}];
+        const presenceSite = ['on 2dbot.uk | ' + prefix + 'help', {type: 'PLAYING'}];
+        const presences = [presenceUsers, presenceGuilds, presenceSite];
+        bot.user.setActivity(...presences[i]);
+        if (presences[i+1]) i++;
+        else i = 0;
+    }, 10000);
 });
 
 bot.on("message", async message => {
