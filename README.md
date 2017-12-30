@@ -20,7 +20,21 @@ Windows:
 
 ## Commands
 
-![](http://screenshots.bluedeadpool.co.uk/chrome_2017-12-28_17-07-27.png)
+2d.avatar [user (optional)] <br />
+2d.ban [user] <br />
+2d.blacklist [user] <br />
+2d.bug <br />
+2d.findusers [search term] <br />
+2d.icon<br />
+2d.info<br />
+2d.invite<br />
+2d.kick [user]<br />
+2d.mute [user] [seconds (optional)]<br />
+2d.ping<br />
+2d.unmute [user]<br />
+2d.userinfo [user]<br />
+
+_For more information, please refer to the [Wiki][wiki]._
 
 _For more information, please refer to the [Wiki][wiki]._
 
