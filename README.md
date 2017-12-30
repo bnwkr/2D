@@ -36,8 +36,6 @@ Windows:
 
 _For more information, please refer to the [Wiki][wiki]._
 
-_For more information, please refer to the [Wiki][wiki]._
-
 ## Release History
 
 * 0.9.4.2
