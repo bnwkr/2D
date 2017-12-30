@@ -1,5 +1,6 @@
 const Discord = module.require("discord.js");
 const fs = module.require("fs");
+const botSettings = require(`E:\\2D\\botsettings.json`);
 
 module.exports.run = async (bot, message, args) => {
     function secondsToString(seconds) {
@@ -13,7 +14,7 @@ module.exports.run = async (bot, message, args) => {
     let embed = new Discord.MessageEmbed()
     .setAuthor("2D - The Discord Bot for Millennials",)
     .setColor("#9B59B6")
-    .addField(":robot: Version", "[v0.9.4-stable](https://github.com/bluedeadpool/2D/releases)",true)
+    .addField(":robot: Version", `[${botSettings.version}](https://github.com/bluedeadpool/2D/releases)`,true)
     .addField(":book: Library", "Node / Discord.js", true)
     .addField(":joystick: Coded By", `Blue#0026`, true)
     .addField(":green_book: Servers", bot.guilds.size, true)

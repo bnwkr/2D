@@ -2,6 +2,7 @@ const botSettings = require("./botsettings.json");
 const Discord = require("discord.js");
 const prefix = botSettings.prefix;
 const token = botSettings.token;
+const version = botSettings.version;
 const fs = require("fs");
 
 const bot = new Discord.Client({disableEveryone: true});
@@ -63,10 +64,10 @@ bot.on("ready", () => {
     //setInterval(serverUpdate, 5000);
     let i = 0
     setInterval(() => {
-        const presenceUsers = ['in ' + bot.guilds.size + ' Guilds | ' + prefix + 'help', {type: 'PLAYING'}];
         const presenceGuilds = [bot.users.size + ' Users | ' + prefix + 'help', {type: 'WATCHING'}];
         const presenceSite = ['on 2dbot.uk | ' + prefix + 'help', {type: 'PLAYING'}];
-        const presences = [presenceUsers, presenceGuilds, presenceSite];
+        const presenceVersion = [`on v${version} | ` + prefix + 'help', {type: 'PLAYING'}];
+        const presences = [presenceVersion, presenceGuilds, presenceSite];
         bot.user.setActivity(...presences[i]);
         if (presences[i+1]) i++;
         else i = 0;
