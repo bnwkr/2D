@@ -1,3 +1,7 @@
+// 2D - The Discord Bot for Millennials \\
+    /* By Blue#0026 (@BlueDeadpool) */
+          /* Version 0.9.4 */
+
 const botSettings = require("./botsettings.json");
 const Discord = require("discord.js");
 const prefix = botSettings.prefix;
