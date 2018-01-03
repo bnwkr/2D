@@ -1,6 +1,8 @@
 # 2D
 > The Discord Bot for Millennials
 
+[![Discord Bots](https://discordbots.org/api/widget/status/394991583751307267.svg)](https://discordbots.org/bot/394991583751307267)
+
 [![Discord](https://img.shields.io/badge/discord-invite-551A8B.svg)](https://discord.gg/p6xsMRZ)
 [![npm (scoped)](https://img.shields.io/npm/v/@cycle/core.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
