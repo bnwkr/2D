@@ -67,15 +67,11 @@ _For more information, please refer to the [Wiki][wiki]._
 
 ## Additional Information
 
-BlueDeadpool – [@MrBlueDeadpool](https://twitter.com/mrbluedeadpool) – ben@bluedeadpool.co.uk
-
 Distributed under the MIT license. See ``LICENSE`` for more information.
-
-[https://github.com/bluedeadpool/2D](https://github.com/bluedeadpool/)
 
 ## Contributing
 
-1. Fork it (<https://github.com/BlueDeadpool/2D/fork>)
+1. Fork it (<https://github.com/bnwkr/2D/fork>)
 2. Create your feature branch (`git checkout -b feature/example`)
 3. Commit your changes (`git commit -am 'My commit'`)
 4. Push to the branch (`git push origin feature/example`)
@@ -87,4 +83,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 [npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
 [travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/bluedeadpool/2d/wiki
+[wiki]: https://github.com/bnwkr/2d/wiki
