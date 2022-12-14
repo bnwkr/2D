@@ -9,7 +9,7 @@
 [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg?style=flat-square)](http://github.com/BlueDeadpool/2D)
 
-2D is a discord bot by BlueDeadpool for moderation, fun and vanity!
+2D is a discord bot for moderation, fun and vanity!
 
 ![](http://screenshots.bluedeadpool.co.uk/Discord_2017-12-28_17-06-10.png)
 
